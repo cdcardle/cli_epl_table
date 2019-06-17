@@ -39,4 +39,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_dependency "nokogiri", "~> 1.10"
+  spec.add_dependency "colorize", "~> 0.8"
+  spec.add_dependency "certified", "~> 1"
 end
