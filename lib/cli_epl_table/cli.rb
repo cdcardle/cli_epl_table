@@ -7,6 +7,7 @@ class CliEplTable::CLI
     goodbye
   end
 
+  # show the full table at startup
   def self.show_table
     puts "English Premier League Table:".blue
     # puts "1. Man City - points"
@@ -17,6 +18,7 @@ class CliEplTable::CLI
     end
   end
 
+  # take user input showing the table or team they enter until they exit
   def self.table
     input = nil
     while input != "exit"
@@ -56,6 +58,7 @@ class CliEplTable::CLI
     end
   end
 
+  # exit message for when the user types exit
   def self.goodbye
     puts "Thanks for checking out the standings!".cyan
   end
