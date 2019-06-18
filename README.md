@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-Once cli_epl_table is installed, all you have to do is type `epl` in your terminal.  It will load up the EPL table and you can explore from there.
+Once `cli_epl_table` is installed, all you have to do is type `epl` in your terminal.  It will load up the EPL table and you can explore from there.
 
 <!-- ## Development
 
