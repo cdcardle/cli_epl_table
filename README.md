@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-Once cli_epl_table is installed, all you have to do is type `epl` in your terminal.  It will load up the EPL table and you can explore from there.
+Once `cli_epl_table` is installed, all you have to do is type `epl` in your terminal.  It will load up the EPL table and you can explore from there.
 
 <!-- ## Development
 
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cli_epl_table. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/cdcardle/cli_epl_table. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
