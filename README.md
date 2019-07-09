@@ -1,4 +1,4 @@
-# CliEplTable
+# epl
 
 Hey there!
 
