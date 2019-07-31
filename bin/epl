@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'cli_epl_table'
+require 'cli_epl_table/scraper'
+
+CliEplTable::Sorter.sorted_data.each do |team|
+  CliEplTable::Team.new(team)
+end
+
+CliEplTable::CLI.call

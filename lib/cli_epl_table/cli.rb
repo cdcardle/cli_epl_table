@@ -12,7 +12,7 @@ class CliEplTable::CLI
     puts "English Premier League Table:".blue
     # puts "1. Man City - points"
     # puts "2. Man U - points"
-    @teams = CliEplTable::Teams.list
+    @teams = CliEplTable::Team.all
     @teams.each do |team|
       puts "#{team.position}. ".yellow + "#{team.name}".blue + " - " + "#{team.points} points".red
     end

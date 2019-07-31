@@ -1,7 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'bundler/setup'
-require 'cli_epl_table'
-require 'cli_epl_table/scraper'
-
-CliEplTable::CLI.call

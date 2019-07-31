@@ -1,5 +1,3 @@
-require "cli_epl_table/scraper"
-
 RSpec.describe CliEplTable do
   it "has a version number" do
     expect(CliEplTable::VERSION).to_not be nil
@@ -13,12 +11,14 @@ RSpec.describe CliEplTable::Scraper do
 end
 
 RSpec.describe CliEplTable::Teams do
-  it "list is not empty" do
-    expect(CliEplTable::Teams.list).to_not be([])
-  end
+  describe "list" do
+    it "list is not empty" do
+      expect(CliEplTable::Teams.list).to_not be([])
+    end
 
-  it "list returns twenty teams" do
-    expect(CliEplTable::Teams.list.size).to eq(20)
+    it "list returns twenty teams" do
+      expect(CliEplTable::Teams.list.size).to eq(20)
+    end
   end
 
   describe "teams have the correct attributes" do
