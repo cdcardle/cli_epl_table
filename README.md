@@ -10,10 +10,6 @@ Install this gem yourself as:
 
     $ gem install cli_epl_table
 
-Then run:
-
-    $ bundle install
-
 ## Usage
 
 Once `cli_epl_table` is installed, all you have to do is run the command:
